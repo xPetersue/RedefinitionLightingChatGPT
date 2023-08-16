@@ -32,4 +32,6 @@ Store the answer in the variable ‘reply’ and print that reply using the prin
 ![image](https://github.com/xPetersue/RedefinitionLightingChatGPT/assets/15628010/18293634-a38c-427d-a16f-317b7444077e)
 
 Please see the complete code in RedefinitionLightingChatGPT.py file.
-Note: "openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details." You need to activate the free plan by associating it with your credit card at a minimum, and then you will be able to import OpenAPI.
+******************************************************************************************************************************
+Note: "openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details." 
+You need to activate the free plan by associating it with your credit card at a minimum, and then you will be able to import OpenAPI.
