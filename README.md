@@ -59,5 +59,24 @@ IoT - Lighting Operational Principle
     •	The app is subscribed to the topic in step 3, and receives the “SUCCESS” message
 
 3. We utilize ChatGPT to translate voice messages into JSON format and send the relevant commands via MQTT and achieve the setup of lighting scene mode.
-   
+  For Example:
+        {
+          "brightness": 255,
+          "color_mode": "rgb",
+          "color_temp": 155,
+          "color": {
+            "r": 255,
+            "g": 180,
+            "b": 200,
+            "c": 100,
+            "w": 50,
+            "x": 0.406,
+            "y": 0.301,
+            "h": 344.0,
+            "s": 29.412
+          },
+          "effect": "colorloop",
+          "state": "ON",
+          "transition": 2,
+        }
 
