@@ -40,13 +40,17 @@ You need to activate the free plan by associating it with your credit card at a 
 IoT - Lighting Operational Principle
 1. MQTT Mechanism
    Light weight and it must run over a transport protocol.
+   
    <img width="452" alt="image" src="https://github.com/xPetersue/RedefinitionLightingChatGPT/assets/15628010/22e1b69f-96d4-458f-b9d4-d6d89e7a6106">
+   
 <img width="452" alt="image" src="https://github.com/xPetersue/RedefinitionLightingChatGPT/assets/15628010/ef32d6ef-f9a4-4316-b2de-174bedf93ac4">
+
 
    App                                              Broker                     Light
     a. Publish Topic A + Message: On   c. Publish Topic A + Message: On       b. Subscribe Topic A
    App                                              Broker                      Light
     b. Subscribe Topic B.              c. Publish Topic B + Message: Success  a. Public Topic B + Message: S
+    
    
     At this point we should be able to start describing our communication flow in terms of MQTT concepts: 
     •	The app client publishes a message to a topic with a payload telling the light to turn “ON”
