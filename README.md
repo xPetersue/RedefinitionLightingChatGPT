@@ -58,11 +58,12 @@ IoT - Lighting Operational Principle
     •	The light turns on and publishes to a topic telling the app the command was a “SUCCESS”
     •	The app is subscribed to the topic in step 3, and receives the “SUCCESS” message
 
-3. We utilize ChatGPT to translate voice messages into JSON format and send the relevant commands via MQTT and achieve the setup of lighting scene mode.
-  JSON schema
+2. We utilize ChatGPT to translate voice messages into JSON format and send the relevant commands via MQTT and achieve the setup of lighting scene mode.
+3. JSON schema
 The mqtt light platform with JSON schema lets you control a MQTT-enabled light that can receive JSON messages.
 This schema supports on/off, brightness, RGB colors, XY colors, color temperature, transitions and short/long flashing. The messages sent to/from the lights look similar to this, omitting fields when they aren’t needed. The color_mode will not be present in messages sent to the light. It is optional in messages received from the light, but can be used to disambiguate the current mode in the light.
-  For Example:
+
+For Example:
            {
               "brightness": 255,
               "color_mode": "rgb",
@@ -82,4 +83,3 @@ This schema supports on/off, brightness, RGB colors, XY colors, color temperatur
               "state": "ON",
               "transition": 2,
             }
-
