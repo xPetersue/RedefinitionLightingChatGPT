@@ -4,7 +4,7 @@ openai.api_key = 'Your_Secret_Key'
 messages = [ {"role": "system", "content": 
               "I am your Smart Home Lighting Controller"} ]
 while True:
-    message = input("User : ")
+    message = input("Question : ")
     if message:
         messages.append(
             {"role": "user", "content": message},
