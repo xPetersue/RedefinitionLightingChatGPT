@@ -39,6 +39,7 @@ You need to activate the free plan by associating it with your credit card at a 
 Step 8: Upload the photo you've taken. For example, I uploaded a photo from the Black Forest. Use ChatGPT to adjust its lighting parameters.
 ![image](https://github.com/xPetersue/RedefinitionLightingChatGPT/assets/15628010/a0bf2ce1-b665-418a-92a2-c6cc466515f9)
 <img width="791" alt="image" src="https://github.com/xPetersue/RedefinitionLightingChatGPT/assets/15628010/67c7cccb-f35c-40b9-97cd-388ebbf74bba">
+******************************************************************************************************************************
 Note: As of the last training cut-off in September 2021, ChatGPT cannot directly process or alter images, including adjusting lighting parameters. The text provided is purely for grammatical correction and might not represent actual capabilities. However, you can utilize the free MiniGPT-4 to accomplish image uploads.
 
 IoT - Lighting Operational Principle
